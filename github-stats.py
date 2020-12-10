@@ -1,6 +1,6 @@
 from github import Github
 
-g = Github("XXXXXXXX")
+g = Github("XXXXXXXX-TOKENID")
 
 for repo in g.get_user().get_repos():
     print(repo)
