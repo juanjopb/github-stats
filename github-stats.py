@@ -1,6 +1,6 @@
 from github import Github
 
-g = Github("XXXXXXXX-GithubToken")
+g = Github("XXXXXXXX-GithubToken-YYYYY")
 
 for repo in g.get_user().get_repos():
     print(repo)
